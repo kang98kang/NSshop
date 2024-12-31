@@ -1,15 +1,18 @@
-import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
     <div>
       <Header />
-      <main className="container mx-auto py-6">
-        <h1 className="text-2xl"> NS홈쇼핑 언리얼엔진</h1>
-        <p>프로젝트 스타트 프로젝트 스타트</p>
-      </main>
+      <div className="p-72 bg-purple-500">Title</div>
+      <div className="p-72 bg-red-500">video</div>
+      <div className="p-72 bg-green-500">Benefits and Recruitment Guide</div>
+      <div className="p-72 bg-blue-500">Recruitment Overview</div>
+      <div className="p-72 bg-yellow-500">Training Contents and Schedule</div>
+      <div className="p-72 bg-orange-500">How to apply and Selection</div>
+      <div className="p-72 bg-pink-500">Location</div>
       <Footer />
     </div>
   );
